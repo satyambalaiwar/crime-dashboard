@@ -15,8 +15,4 @@ state_scores = df.groupby('STATE')['HTRS'].mean().reset_index().sort_values(by='
 yearly_trend = df.groupby('YEAR')['HTRS'].mean().reset_index()
 plt.figure(figsize=(12, 6))
 sns.barplot(data=state_scores, x='HTRS', y='STATE', palette='viridis')
-
-# FINAL PLOT
-sns.barplot(data=state_scores, x='HTRS', y='STATE', palette='viridis')
 plt.show()
-# FINAL PLOT
