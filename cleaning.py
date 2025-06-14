@@ -57,4 +57,4 @@ if not missing_pop_states.empty:
     print(missing_pop_states['STATE'].unique())
 
 df_final.to_csv("human_trafficking_cleaned.csv", index=False)
-print("✅ Cleaned file saved as 'human_trafficking_cleaned.csv'")
+print("Cleaned file saved as 'human_trafficking_cleaned.csv'")
